@@ -15,7 +15,7 @@ var LStorage = (function () {
 		return val;
 	};
         LStorage.prototype.removeItem = function (key) {
-		delete this.localStorage[key]
+		delete this.localStorage[key];
 		localStorage.removeItem(key);
 		return true;
 	};
